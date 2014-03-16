@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F721565F18D60BAD005E26B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F721565E18D60BAD005E26B4 /* Foundation.framework */; };
+		F721566118D60BAD005E26B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F721566018D60BAD005E26B4 /* CoreGraphics.framework */; };
+		F721566318D60BAD005E26B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F721566218D60BAD005E26B4 /* UIKit.framework */; };
+		F721566918D60BAD005E26B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F721566718D60BAD005E26B4 /* InfoPlist.strings */; };
+		F721566B18D60BAD005E26B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F721566A18D60BAD005E26B4 /* main.m */; };
+		F721566F18D60BAD005E26B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F721566E18D60BAD005E26B4 /* AppDelegate.m */; };
+		F721567218D60BAD005E26B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F721567018D60BAD005E26B4 /* Main.storyboard */; };
+		F721567518D60BAD005E26B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F721567418D60BAD005E26B4 /* ViewController.m */; };
+		F721567718D60BAD005E26B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F721567618D60BAD005E26B4 /* Images.xcassets */; };
+		F721567E18D60BAD005E26B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F721567D18D60BAD005E26B4 /* XCTest.framework */; };
+		F721567F18D60BAD005E26B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F721565E18D60BAD005E26B4 /* Foundation.framework */; };
+		F721568018D60BAD005E26B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F721566218D60BAD005E26B4 /* UIKit.framework */; };
+		F721568818D60BAD005E26B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F721568618D60BAD005E26B4 /* InfoPlist.strings */; };
+		F721568A18D60BAD005E26B4 /* temperatura_cidadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F721568918D60BAD005E26B4 /* temperatura_cidadeTests.m */; };
+		F721569518D60CEA005E26B4 /* index.png in Resources */ = {isa = PBXBuildFile; fileRef = F721569418D60CEA005E26B4 /* index.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F721568118D60BAD005E26B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F721565318D60BAD005E26B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F721565A18D60BAD005E26B4;
+			remoteInfo = "temperatura-cidade";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F721565B18D60BAD005E26B4 /* temperatura-cidade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "temperatura-cidade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F721565E18D60BAD005E26B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F721566018D60BAD005E26B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F721566218D60BAD005E26B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F721566618D60BAD005E26B4 /* temperatura-cidade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "temperatura-cidade-Info.plist"; sourceTree = "<group>"; };
+		F721566818D60BAD005E26B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F721566A18D60BAD005E26B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F721566C18D60BAD005E26B4 /* temperatura-cidade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "temperatura-cidade-Prefix.pch"; sourceTree = "<group>"; };
+		F721566D18D60BAD005E26B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F721566E18D60BAD005E26B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F721567118D60BAD005E26B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F721567318D60BAD005E26B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F721567418D60BAD005E26B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F721567618D60BAD005E26B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F721567C18D60BAD005E26B4 /* temperatura-cidadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "temperatura-cidadeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F721567D18D60BAD005E26B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F721568518D60BAD005E26B4 /* temperatura-cidadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "temperatura-cidadeTests-Info.plist"; sourceTree = "<group>"; };
+		F721568718D60BAD005E26B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F721568918D60BAD005E26B4 /* temperatura_cidadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temperatura_cidadeTests.m; sourceTree = "<group>"; };
+		F721569418D60CEA005E26B4 /* index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = index.png; path = "temperatura-cidade/image/index.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F721565818D60BAD005E26B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721566118D60BAD005E26B4 /* CoreGraphics.framework in Frameworks */,
+				F721566318D60BAD005E26B4 /* UIKit.framework in Frameworks */,
+				F721565F18D60BAD005E26B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F721567918D60BAD005E26B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721567E18D60BAD005E26B4 /* XCTest.framework in Frameworks */,
+				F721568018D60BAD005E26B4 /* UIKit.framework in Frameworks */,
+				F721567F18D60BAD005E26B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F721565218D60BAD005E26B4 = {
+			isa = PBXGroup;
+			children = (
+				F721566418D60BAD005E26B4 /* temperatura-cidade */,
+				F721568318D60BAD005E26B4 /* temperatura-cidadeTests */,
+				F721565D18D60BAD005E26B4 /* Frameworks */,
+				F721565C18D60BAD005E26B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F721565C18D60BAD005E26B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F721565B18D60BAD005E26B4 /* temperatura-cidade.app */,
+				F721567C18D60BAD005E26B4 /* temperatura-cidadeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F721565D18D60BAD005E26B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F721565E18D60BAD005E26B4 /* Foundation.framework */,
+				F721566018D60BAD005E26B4 /* CoreGraphics.framework */,
+				F721566218D60BAD005E26B4 /* UIKit.framework */,
+				F721567D18D60BAD005E26B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F721566418D60BAD005E26B4 /* temperatura-cidade */ = {
+			isa = PBXGroup;
+			children = (
+				F721569318D60CEA005E26B4 /* image */,
+				F721566D18D60BAD005E26B4 /* AppDelegate.h */,
+				F721566E18D60BAD005E26B4 /* AppDelegate.m */,
+				F721567018D60BAD005E26B4 /* Main.storyboard */,
+				F721567318D60BAD005E26B4 /* ViewController.h */,
+				F721567418D60BAD005E26B4 /* ViewController.m */,
+				F721567618D60BAD005E26B4 /* Images.xcassets */,
+				F721566518D60BAD005E26B4 /* Supporting Files */,
+			);
+			path = "temperatura-cidade";
+			sourceTree = "<group>";
+		};
+		F721566518D60BAD005E26B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F721566618D60BAD005E26B4 /* temperatura-cidade-Info.plist */,
+				F721566718D60BAD005E26B4 /* InfoPlist.strings */,
+				F721566A18D60BAD005E26B4 /* main.m */,
+				F721566C18D60BAD005E26B4 /* temperatura-cidade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F721568318D60BAD005E26B4 /* temperatura-cidadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F721568918D60BAD005E26B4 /* temperatura_cidadeTests.m */,
+				F721568418D60BAD005E26B4 /* Supporting Files */,
+			);
+			path = "temperatura-cidadeTests";
+			sourceTree = "<group>";
+		};
+		F721568418D60BAD005E26B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F721568518D60BAD005E26B4 /* temperatura-cidadeTests-Info.plist */,
+				F721568618D60BAD005E26B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F721569318D60CEA005E26B4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F721569418D60CEA005E26B4 /* index.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F721565A18D60BAD005E26B4 /* temperatura-cidade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F721568D18D60BAD005E26B4 /* Build configuration list for PBXNativeTarget "temperatura-cidade" */;
+			buildPhases = (
+				F721565718D60BAD005E26B4 /* Sources */,
+				F721565818D60BAD005E26B4 /* Frameworks */,
+				F721565918D60BAD005E26B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "temperatura-cidade";
+			productName = "temperatura-cidade";
+			productReference = F721565B18D60BAD005E26B4 /* temperatura-cidade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F721567B18D60BAD005E26B4 /* temperatura-cidadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F721569018D60BAD005E26B4 /* Build configuration list for PBXNativeTarget "temperatura-cidadeTests" */;
+			buildPhases = (
+				F721567818D60BAD005E26B4 /* Sources */,
+				F721567918D60BAD005E26B4 /* Frameworks */,
+				F721567A18D60BAD005E26B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F721568218D60BAD005E26B4 /* PBXTargetDependency */,
+			);
+			name = "temperatura-cidadeTests";
+			productName = "temperatura-cidadeTests";
+			productReference = F721567C18D60BAD005E26B4 /* temperatura-cidadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F721565318D60BAD005E26B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ezequiel Franca dos Santos";
+				TargetAttributes = {
+					F721567B18D60BAD005E26B4 = {
+						TestTargetID = F721565A18D60BAD005E26B4;
+					};
+				};
+			};
+			buildConfigurationList = F721565618D60BAD005E26B4 /* Build configuration list for PBXProject "temperatura-cidade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F721565218D60BAD005E26B4;
+			productRefGroup = F721565C18D60BAD005E26B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F721565A18D60BAD005E26B4 /* temperatura-cidade */,
+				F721567B18D60BAD005E26B4 /* temperatura-cidadeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F721565918D60BAD005E26B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721569518D60CEA005E26B4 /* index.png in Resources */,
+				F721567718D60BAD005E26B4 /* Images.xcassets in Resources */,
+				F721566918D60BAD005E26B4 /* InfoPlist.strings in Resources */,
+				F721567218D60BAD005E26B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F721567A18D60BAD005E26B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721568818D60BAD005E26B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F721565718D60BAD005E26B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721567518D60BAD005E26B4 /* ViewController.m in Sources */,
+				F721566F18D60BAD005E26B4 /* AppDelegate.m in Sources */,
+				F721566B18D60BAD005E26B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F721567818D60BAD005E26B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721568A18D60BAD005E26B4 /* temperatura_cidadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F721568218D60BAD005E26B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F721565A18D60BAD005E26B4 /* temperatura-cidade */;
+			targetProxy = F721568118D60BAD005E26B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F721566718D60BAD005E26B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F721566818D60BAD005E26B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F721567018D60BAD005E26B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F721567118D60BAD005E26B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F721568618D60BAD005E26B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F721568718D60BAD005E26B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F721568B18D60BAD005E26B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F721568C18D60BAD005E26B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F721568E18D60BAD005E26B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "temperatura-cidade/temperatura-cidade-Prefix.pch";
+				INFOPLIST_FILE = "temperatura-cidade/temperatura-cidade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F721568F18D60BAD005E26B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "temperatura-cidade/temperatura-cidade-Prefix.pch";
+				INFOPLIST_FILE = "temperatura-cidade/temperatura-cidade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F721569118D60BAD005E26B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/temperatura-cidade.app/temperatura-cidade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "temperatura-cidade/temperatura-cidade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "temperatura-cidadeTests/temperatura-cidadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F721569218D60BAD005E26B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/temperatura-cidade.app/temperatura-cidade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "temperatura-cidade/temperatura-cidade-Prefix.pch";
+				INFOPLIST_FILE = "temperatura-cidadeTests/temperatura-cidadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F721565618D60BAD005E26B4 /* Build configuration list for PBXProject "temperatura-cidade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F721568B18D60BAD005E26B4 /* Debug */,
+				F721568C18D60BAD005E26B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F721568D18D60BAD005E26B4 /* Build configuration list for PBXNativeTarget "temperatura-cidade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F721568E18D60BAD005E26B4 /* Debug */,
+				F721568F18D60BAD005E26B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F721569018D60BAD005E26B4 /* Build configuration list for PBXNativeTarget "temperatura-cidadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F721569118D60BAD005E26B4 /* Debug */,
+				F721569218D60BAD005E26B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F721565318D60BAD005E26B4 /* Project object */;
+}

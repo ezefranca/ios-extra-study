@@ -1,9 +1,9 @@
 //
-//  Frete.m
-//  calcula-frete
+// Frete.m
+// calcula-frete
 //
-//  Created by Ezequiel Franca dos Santos on 15/03/14.
-//  Copyright (c) 2014 Ezequiel Franca dos Santos. All rights reserved.
+// Created by Ezequiel Franca dos Santos on 15/03/14.
+// Copyright (c) 2014 Ezequiel Franca dos Santos. All rights reserved.
 //
 
 #import "Frete.h"
@@ -24,9 +24,9 @@
     }
     
     NSData *jsonFreteSerializado = [NSJSONSerialization
-                                         JSONObjectWithData:jsonFrete
-                                         options:NSJSONReadingMutableContainers
-                                         error:&error];
+                                    JSONObjectWithData:jsonFrete
+                                    options:NSJSONReadingMutableContainers
+                                    error:&error];
     
     NSLog(@"%@", jsonFreteSerializado);
 }
